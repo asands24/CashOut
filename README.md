@@ -4,6 +4,7 @@ This is a **Streamlit** application designed to serve as an **NFL Betting Calcul
 
 It allows you to calculate the **edge** (difference between your model's probability and the book's implied probability) and determine the optimal **Kelly Criterion stake size** for four main betting markets: Moneyline, Alt Spreads, First Half Winner, and Player Props.
 
+https://cashout-nfm6kkvsukc8mgbbeubnom.streamlit.app/
 ---
 
 ## ✨ Features
