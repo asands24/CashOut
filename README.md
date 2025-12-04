@@ -31,7 +31,7 @@ The application relies on several core helper functions for its logic:
     * `cover_prob`: Calculates the probability of covering a spread using a logistic function based on the projected margin relative to the line.
     * `prop_over_prob` / `prop_under_prob`: Calculates player prop probabilities (Over/Under) using the **Normal Cumulative Distribution Function ($CDF$)**: $P = \int_{-\infty}^{x} \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{1}{2}(\frac{t-\mu}{\sigma})^2} dt$ (where $\mu$ is the projection and $\sigma$ is the standard deviation). 
 
-[Image of Normal Distribution Bell Curve]
+<img width="2048" height="1281" alt="image" src="https://github.com/user-attachments/assets/52e80d04-8c73-4569-ab13-70103223215c" />
 
 * **Bankroll Management:**
     * `kelly_fraction_full`: Calculates the **Full Kelly Criterion fraction ($f^{*}$)** using the formula: $$f^* = \frac{b p - q}{b}$$ where $p$ is your win probability, $q = 1-p$ is your loss probability, and $b$ is the decimal odds minus 1 (net odds).
